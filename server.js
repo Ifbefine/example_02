@@ -29,3 +29,21 @@ console.log("Hello");
 
 // например, создать ветку футер из ветки home_page
 // git branch footer home_page
+
+// Пример как работать с веткой
+// вы получили задачу сделать функцию суммирования
+
+// 1. Обновите ветку main - git pull
+// 2. Создадим из мейн новую ветку sum и переключимся в нее
+//  git checkout -b sum
+// 3. Напишем код и после сохраним
+//  git add .
+//  git commit -m 'add sum function'
+// 4. Сделаем гитпуш в одноименную удаленную ветку
+//  из sum в origin sum
+//  первый пуш должен содержать флаг -u
+//  git push -u origin home_page
+// 5 вносишь изменения
+//  git add .
+//  git commit -m 'add blabla'
+//  git push
