@@ -1,0 +1,9 @@
+.DS.Store
+example.txt
+.idea/
+.vscode/
+
+*.zip
+
+.env
+node_modules/
